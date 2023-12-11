@@ -1,3 +1,26 @@
+# Deployed project to Heroku
+https://final-web-app2.herokuapp.com/
+
+Video on YouTube: 
+https://youtu.be/ft9KEJIrano
+
+# Group members:
+1) Zebiniso Sultonmurodova
+2) Aiana Abdyrakhmanova
+
+---
+1. Homepage
+
+![image](https://user-images.githubusercontent.com/72644178/148368060-278f1c70-4926-46e4-a1df-2a612e3b3be8.png)
+
+2. U can see more information
+
+![image](https://user-images.githubusercontent.com/72644178/148363149-a1ee065e-6bc9-4bc9-8be4-cd2829f83e55.png)
+
+3. U can search contact 
+
+![image](https://user-images.githubusercontent.com/72644178/148368277-5993a13f-ebe7-42ae-9315-b55d41dca48d.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
