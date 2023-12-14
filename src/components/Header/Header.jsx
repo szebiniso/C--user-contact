@@ -9,7 +9,6 @@ const Header = () => {
   };
   return (
     <header>
-      {/*<img src={phoneIcon} alt="wrong" className="phoneIcon" />*/}
       <h1 className="header" onClick={nav}>
         MyContacts
       </h1>

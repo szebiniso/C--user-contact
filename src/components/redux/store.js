@@ -1,6 +1,6 @@
-import { applyMiddleware, createStore } from "redux";
+import { createStore, applyMiddleware } from "redux";
+import {thunk} from 'redux-thunk';
 import reducer from "./contactReducers";
-import thunk from 'redux-thunk';
 import {composeWithDevTools} from "redux-devtools-extension";
 
 const saveToLocalStorage = (state) => {
@@ -23,13 +23,12 @@ const loadFromLocalStorage = () => {
   }
 };
 
-const middleware = [thunk];
-
 const store = createStore(
   reducer,
   loadFromLocalStorage(),
-  composeWithDevTools(applyMiddleware(...middleware))
+  composeWithDevTools(applyMiddleware(thunk))
 );
+
 store.subscribe(() => saveToLocalStorage(store.getState()));
 
 export default store;
